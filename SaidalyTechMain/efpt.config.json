@@ -1,0 +1,385 @@
+﻿{
+   "CodeGenerationMode": 1,
+   "ContextClassName": "PharmacySystemContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DB_Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "SaidalyTechMain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[AspNetRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUserRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbAuthorization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbCategories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbCompanyInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbCustomers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbDelivryMen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbExpenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbExpensesPayment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbForms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbGroups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbItemProperties]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbItemUnits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbOrdersItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbPrinterSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbPurchaseInvoiceItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbPurchaseInvoices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbPurchaseReturnsDitails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbPurchasesReturns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSafes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSalesInvoiceItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSalesInvoices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSalesReturns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSalesReturnsDitails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbShifts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbStockTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbStockWithdrawAndDeposit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbStores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbStoresTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbStoreTransactionDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbSuppliers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbTransactionTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TbUnits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VwAuthorizationWithFormName]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwAuthorizationWithNames]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwCustomerLaterInShift]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwCustomersAccountStatement]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwCustomersBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwCustomersTransactions]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwDesktopUsers]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwEachStoreInventory]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwExpensesReport]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwFormsData]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwItemsWithUnits]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwOrderHead]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwOrderItem]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwPurchaseInvoiceHeds]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwPurchaseInvoiceitems]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwPurchaseReturnsDetails]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwPurchasesReturnsHeads]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwRoles]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwRoshetaBody]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwRoshetaHead]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwRoshetaOrders]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwRoshetaOrdersItems]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSafesBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSafesMoves]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSalesInvoiceHeds]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSalesInvoiceItems]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSalesReturnsDetails]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSalesReturnsHeads]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwStockTransactionsReport]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwStockWithdrawAndDeposit]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwStoreInventory]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwStoresTransactionHeads]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSupplierInvoices]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSuppliersBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSupplierssAccountStatement]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[VwSuppliersTransactions]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[EmptyData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPCustomerBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPDelegatesReportBetweenDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPDelegatesReportBetweenShifts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPDelegatesReportWithId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPDelegatesReportWithIdBetweenDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SpGetCustomerBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPGetSaleItemBetweenShifts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPGetSaleItemInSheftBetweenDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPGetSaleItemInSheftBetweenDateAndUserId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPGetSaleItemInSheftById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SPGetSaleItemInSheftByUserId]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SpGetSupplierBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SpProfitAndLoses]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "SRV-SQLDATA.PharmacySystem",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
